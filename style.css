@@ -1,0 +1,13 @@
+input[type=checkbox]:checked + label.strikethrough {
+    text-decoration: line-through;
+}
+
+.item {
+    display: flex;
+    vertical-align: middle;
+    height: 25px;
+}
+
+label {
+    margin-left: 4px;
+}
